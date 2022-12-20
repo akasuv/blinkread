@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "BlinkRead",
+  "version": "1.0.0",
+  "action": {},
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "description": "Get quick summary of any webpage, powered by ChatGPT.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "src/background.ts",
+    "type": "module"
+  }
+}
