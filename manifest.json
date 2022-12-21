@@ -9,11 +9,17 @@
     "48": "logo.png",
     "128": "logo.png"
   },
-  "description": "Get quick summary of any webpage, powered by ChatGPT.",
+  "description": "Get a quick summary of any webpage, powered by ChatGPT.",
   "permissions": ["activeTab", "scripting"],
   "host_permissions": ["*://*/*"],
   "background": {
     "service_worker": "src/background.ts",
     "type": "module"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["logo.png", "loading.gif", "close.png"],
+      "matches": ["*://*/*"]
+    }
+  ]
 }
