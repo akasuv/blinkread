@@ -9,7 +9,7 @@
     "48": "logo.png",
     "128": "logo.png"
   },
-  "description": "Get a quick summary of any webpage, powered by ChatGPT.",
+  "description": "Get a quick summary of any webpage, powered by OpenAI GPT-3.",
   "permissions": ["activeTab", "scripting"],
   "host_permissions": ["*://*/*"],
   "background": {
