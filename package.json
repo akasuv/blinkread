@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start-server": "node server/app.js"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
