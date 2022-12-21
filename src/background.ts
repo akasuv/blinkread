@@ -8,7 +8,7 @@ chrome.action.onClicked.addListener((tab) => {
 });
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-  fetch("http://localhost:8000", {
+  fetch("http://localhost:3000/summary", {
     method: "POST",
     body: request.content,
   })
