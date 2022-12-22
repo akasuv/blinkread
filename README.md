@@ -2,7 +2,7 @@
 
 BlinkRead is a chrome extension that generates a quick summary of any website, powered by OpenAI [GPT-3](https://beta.openai.com/docs/models/gpt-3).
 
-[demo](demo.gif)
+[Demo](https://i.imgur.com/Bwpghml.gifv)
 
 ## Quick Installation
 
